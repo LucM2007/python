@@ -1,7 +1,7 @@
 while true:
     print("i will reverse the sentences you give me")
     play = input("do you want to play? (yes/no): ").capitalize()
-    if play != "yes" or play != "no":
+    if play != "yes" and play != "no":
         print("you didn't enter yes or no")
         continue
     if play == "no":
